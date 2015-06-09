@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>defaultColumnCount</key>
+	<integer>6</integer>
+	<key>globalHotkey</key>
+	<dict>
+		<key>keyCode</key>
+		<integer>122</integer>
+		<key>modifiers</key>
+		<integer>8390912</integer>
+	</dict>
+	<key>lastColumnCount</key>
+	<integer>6</integer>
+	<key>lastRowCount</key>
+	<integer>6</integer>
+	<key>shortcuts</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUIZ2hUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLR
+	BgdUcm9vdIABrxAQCQoVLC00PT5HSFBRWVpiY1UkbnVsbNILDA0OViRjbGFzc1pOUy5v
+	YmplY3RzgA+mDxAREhMUgAKABYAHgAmAC4AN3RYXGBkaGxwdHh8gIQsiIyQlJiMnKCko
+	IicrXxASc2VsZWN0aW9uRW5kQ29sdW1uXxARc2VsZWN0aW9uU3RhcnRSb3dca2V5Q29t
+	Ym9Db2RlV2VuYWJsZWRda2V5Q29tYm9GbGFnc18QFHNlbGVjdGlvblN0YXJ0Q29sdW1u
+	W3NpemVDb2x1bW5zWnN1YmRpdmlkZWRXbmFtZUtleVZnbG9iYWxfEA9zZWxlY3Rpb25F
+	bmRSb3dYc2l6ZVJvd3MQBRAAEHoJEgCAAAAQBgiAAwiABFlGdWxsIFNpemXSLi8wM1gk
+	Y2xhc3Nlc1okY2xhc3NuYW1lojEyWFNob3J0Y3V0WE5TT2JqZWN0WFNob3J0Y3V03RYX
+	GBkaGxwdHh8gIQs1IzYlOCMnKDooNScrEAMQeAkSAIAAAAiABgiABF8QE1RvcCBMZWZ0
+	IFR3byBUaGlyZHPdFhcYGRobHB0eHyAhCz8jQCVCIycoRCg/JysQAhASCRIAAgAACIAI
+	CIAEXxAQVG9wIExlZnQgUXVhcnRlct0WFxgZGhscHR4fICELIiNJJUs1JyhNKD8nKxAT
+	CRIAAgAACIAKCIAEXxARVG9wIFJpZ2h0IFF1YXJ0ZXLdFhcYGRobHB0eHyAhCz81UiVU
+	IycoVigiJysQFAkSAAIAAAiADAiABF8QE0JvdHRvbSBMZWZ0IFF1YXJ0ZXLdFhcYGRob
+	HB0eHyAhCyI1WyVdNScoXygiJysQFQkSAAIAAAiADgiABF8QFEJvdHRvbSBSaWdodCBR
+	dWFydGVy0i4vZGWjZWYyXk5TTXV0YWJsZUFycmF5V05TQXJyYXkSAAGGoF8QD05TS2V5
+	ZWRBcmNoaXZlcgAIABEAFgAfACgAMgA1ADoAPABPAFUAWgBhAGwAbgB1AHcAeQB7AH0A
+	fwCBAJwAsQDFANIA2gDoAP8BCwEWAR4BJQE3AUABQgFEAUYBRwFMAU4BTwFRAVIBVAFe
+	AWMBbAF3AXoBgwGMAZUBsAGyAbQBtQG6AbsBvQG+AcAB1gHxAfMB9QH2AfsB/AH+Af8C
+	AQIUAi8CMQIyAjcCOAI6AjsCPQJRAmwCbgJvAnQCdQJ3AngCegKQAqsCrQKuArMCtAK2
+	ArcCuQLQAtUC2QLoAvAC9QAAAAAAAAIBAAAAAAAAAGkAAAAAAAAAAAAAAAAAAAMH
+	</data>
+	<key>useDefaultGrid</key>
+	<true/>
+	<key>useGlobalHotkey</key>
+	<true/>
+	<key>useMonitorCycling</key>
+	<true/>
+</dict>
+</plist>
