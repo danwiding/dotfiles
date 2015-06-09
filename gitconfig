@@ -18,10 +18,14 @@
 [fetch]
   prune = true
 [init]
-  templatedir = ~/.git_template
+  #templatedir = ~/.git_template
 [include]
   path = ~/.gitconfig.local
+[mergetool "sublime"]
+  cmd = subl -w $MERGED
+  trustExitCode = false
 [merge]
+  tool = sublime
   ff = only
 [push]
   default = current
