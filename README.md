@@ -1,5 +1,24 @@
-thoughtbot dotfiles
+Dan Widing dotfiles
 ===================
+[How rcup works](http://thoughtbot.github.io/rcm/rcup.1.html#x4449524543544f5259204c41594f5554)
+[RCM Documentation](http://thoughtbot.github.io/rcm/rcm.7.html)
+[the Mac OS X Setup Guide](http://sourabhbajaj.com/mac-setup/Git/gitignore.html)
+
+Install process
+---------------
+
+Execute
+
+```
+sh .init.sh
+sh .brew.sh
+env RCRC=$HOME/dotfiles/rcrc rcup
+sh .osx.sh
+```
+
+
+Original Thoughtbot dotfiles Documentation
+==========================================
 
 Requirements
 ------------

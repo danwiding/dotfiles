@@ -8,12 +8,16 @@ sudo -v
 # Keep-alive: update existing `sudo` time stamp until `.osx` has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+xcode-select --install
+
 handle_file_ln_and_backup() {
-  if [ (-e "\$2") -a (! -h "\$2")]; then
-    cp "\$2" "\${2}_old"
+  if [[ (-e "$2") && (! -h "$2") ]]; then
+  	echo "cp $2 ${2}_old"
+    cp "$2" "${2}_old"
+  else
+  	echo "no preexisting file $2"
   fi
-  verbose "'\$1' -> '\$2'"
-  ln -sf "\$1" "\$2"
+  ln -sf "$1" "$$2"
 }
 
 ###############################################################################
@@ -23,6 +27,7 @@ handle_file_ln_and_backup() {
 # Install Sublime Text settings
 handle_file_ln_and_backup bash_dot_osx_linked/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Preferences.sublime-settings
 
+# Install Divvy Preferences
 handle_file_ln_and_backup bash_dot_osx_linked/com.mizage.Divvy.plist ~/Library/Preferences/com.mizage.Divvy.plist
 ###############################################################################
 # FROM PREVIOUS DOTFILES
@@ -248,7 +253,7 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 ###############################################################################
 
 # Finder: allow quitting via ⌘ + Q; doing so will also hide desktop icons
-defaults write com.apple.finder QuitMenuItem -bool true
+# defaults write com.apple.finder QuitMenuItem -bool true
 
 # Finder: disable window animations and Get Info animations
 defaults write com.apple.finder DisableAllAnimations -bool true
@@ -265,7 +270,7 @@ defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 
 # Finder: show hidden files by default
-#defaults write com.apple.finder AppleShowAllFiles -bool true
+defaults write com.apple.finder AppleShowAllFiles -bool true
 
 # Finder: show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true

@@ -8,11 +8,16 @@ sudo -v
 # Keep-alive: update existing `sudo` time stamp until the script has finished.
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 # Make sure we’re using the latest Homebrew.
 brew update
 
 # Upgrade any already-installed formulae.
 brew upgrade --all
+
+brew tap thoughtbot/formulae
+brew install rcm
 
 # install cask
 brew tap caskroom/cask
@@ -23,7 +28,7 @@ brew cask install cheatsheet
 # brew cask install google-chrome
 # brew cask install google-drive
 brew cask install google-hangouts
-brew cask install onepassword
+brew cask install virtualbox
 brew cask install valentina-studio
 brew cask install vlc
 brew cask install iterm2
@@ -63,6 +68,9 @@ brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 brew install homebrew/php/php55 --with-gmp
 
+
+brew install zsh
+brew install zsh-completions
 # Install font tools.
 # brew tap bramstein/webfonttools
 # brew install sfnt2woff
@@ -116,4 +124,7 @@ brew install git
 # brew install zopfli
 
 # Remove outdated versions from the cellar.
+
+chsh -s $(which zsh)
+
 brew cleanup

@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Starter Installs
 
 # http://sourabhbajaj.com/mac-setup/XCode/README.html
@@ -6,5 +7,7 @@
 
 xcode-select --install
 
-brew tap caskroom/cask
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+
+# chsh -s $(which zsh) is part of zsh install above
 
