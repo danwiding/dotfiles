@@ -33,6 +33,8 @@ brew cask install valentina-studio
 brew cask install vlc
 brew cask install iterm2
 brew cask install vagrant
+brew cask install rescuetime
+brew cask install rubymine
 
 # Install GNU core utilities (those that come with OS X are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
