@@ -17,7 +17,7 @@ handle_file_ln_and_backup() {
   else
   	echo "no preexisting file $2"
   fi
-  ln -sf "$1" "$$2"
+  ln -sf "$1" "$2"
 }
 
 ###############################################################################
