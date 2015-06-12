@@ -25,10 +25,10 @@ handle_file_ln_and_backup() {
 ###############################################################################
 
 # Install Sublime Text settings
-handle_file_ln_and_backup bash_dot_osx_linked/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Preferences.sublime-settings
+handle_file_ln_and_backup ${PWD}/bash_dot_osx_linked/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Preferences.sublime-settings
 
 # Install Divvy Preferences
-handle_file_ln_and_backup bash_dot_osx_linked/com.mizage.Divvy.plist ~/Library/Preferences/com.mizage.Divvy.plist
+handle_file_ln_and_backup ${PWD}/bash_dot_osx_linked/com.mizage.Divvy.plist ~/Library/Preferences/com.mizage.Divvy.plist
 ###############################################################################
 # FROM PREVIOUS DOTFILES
 ###############################################################################

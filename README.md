@@ -12,7 +12,8 @@ Execute
 ```
 sh .init.sh
 sh .brew.sh
-env RCRC=$HOME/dotfiles/rcrc rcup
+env RCRC=$HOME/dotfiles/rcrc rcup -t osx
+# env RCRC=$HOME/dotfiles/rcrc rcup -t vagrant
 sh .osx.sh
 ```
 
